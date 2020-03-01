@@ -6,7 +6,7 @@
 |name|string|   |
 |type|string|null: false|
 |cost|integer|null: false|
-|update|datetime|null: false|
+|date|date|null: false|
 |memo|text|   |
 ### Association
 - has_many :users
@@ -32,7 +32,7 @@
 |user_id|integer|foreign_key :true|
 |name|string|null: false|
 |cost|integer|null: false|
-|update|datetime|null: false|
+|date|date|null: false|
 |memo|text|   |
 ### Association
 - belongs_to :house
@@ -44,7 +44,7 @@
 |room_id|integer|foreign_key :true|
 |name|string|null :false|
 |cost|integer|null: false|
-|update|datetime|null: false|
+|date|date|null: false|
 |memo|text|   |
 ### Association
 - has_many :items
@@ -56,7 +56,7 @@
 |furniture_id|integer|foreign_key :true|
 |name|string|null: false|
 |cost|integer|null: false|
-|update|datetime|null: false|
+|date|date|null: false|
 |memo|text|   |
 ### Association
 - belongs_to :user
