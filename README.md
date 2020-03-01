@@ -18,9 +18,9 @@
 |house_id|integer|foreign_key :true|
 |name|string|null: false ,unique: true|
 |age|integer|   |
-|work|string|   |
+|job|string|   |
 |hobby|string|   |
-|buddet|integer|null: false|
+|budget|integer|null: false|
 ### Association
 - belongs_to :house
 - has_many :items

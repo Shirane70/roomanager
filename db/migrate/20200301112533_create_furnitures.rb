@@ -1,6 +1,6 @@
-class CreateRooms < ActiveRecord::Migration[5.2]
+class CreateFurnitures < ActiveRecord::Migration[5.2]
   def change
-    create_table :rooms do |t|
+    create_table :furnitures do |t|
       t.string :name
       t.integer :cost
       t.date :date
